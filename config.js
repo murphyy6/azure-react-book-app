@@ -3,7 +3,7 @@ const config = {};
 config.host = process.env.HOST || "https://cosmo-demo.documents.azure.com:443/";
 config.authKey =
   process.env.AUTH_KEY || "zEIVmEAjE5E5uQ5G1FX3jf097MpaEXanv62nPfTKCGbH3ccTPNrWNCq3mfiGaWe9x72qT9TnatDZLGxNkeARFw==";
-config.databaseId = "Books";
+config.databaseId = "Books~";
 config.containerId = "Items";
 
 if (config.host.includes("https://localhost:")) {
